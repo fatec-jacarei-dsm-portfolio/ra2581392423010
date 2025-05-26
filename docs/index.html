@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Criativo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: linear-gradient(to right, #f0f2f5, #e6ecf0);
+            color: #333;
+        }
+
+        header {
+            background: #4a90e2;
+            color: white;
+            padding: 40px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .perfil {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .perfil img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+        }
+
+        .perfil-info h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        .perfil-info p {
+            margin: 5px 0 0;
+            font-size: 1.1em;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #f1c40f;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+
+        section h2 {
+            color: #4a90e2;
+            margin-bottom: 20px;
+        }
+
+        section p, section li {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li::before {
+            content: "🚀 ";
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 25px 10px;
+            margin-top: 40px;
+        }
+
+        a {
+            color: #4a90e2;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+}
+    </style>
+</head>
+<body>
+    
+
+<header>
+    <div class="perfil">
+        <img src="Foto pessoal.jpg" alt="Minha foto de perfil">
+        <div class="perfil-info">
+            <h1>Arthur Augusto</h1>
+            <p>Estudante de desenvolvimento de software| Entusiasta da área | Criador de Soluções | Aprendizagem e melhorias continuas</p>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#conhecimentos">Conhecimentos</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Sou um estudante da Fatec Jacareí, do curso de Desenvolvimento de software multiplataforma. Sou formado em logística pela Fatec de São José dos campos, 
+        e fazendo uma migração de carreira. Tenho pouca experiência na área, mas busco sempre novos conhecimentos e estou disposto a ter novas experiências.</p>
+</section>
+
+<section id="projetos">
+    <h2>Meus Projetos</h2>
+    <ul>
+        <li><strong>Proejto 1º semestre fatec:</strong> <a href="https://github.com/DevsScrumAcademy/1-DSM---DevsAcademy" target="_blank">Atuação como desenvolvedor</a></li>
+        <p>  Neste primeiro projeto desenvolvido na Fatec, atuei como desenvolvedor nas frentes da modelagem do banco de dados, criação de conexão entre o Node.Js e hospedagem do bando de dados na nuvem, através da AW.</p>
+        <li><strong>Proejto 2º semestre fatec:</strong> <a href="https://github.com/ArthurAugusto10/CodeGators---Documentacao" target="_blank">Atuação como Product Owner</a></li>
+        <p>
+             No projeto do segundo semestre atuei como Product Owner, fazendo contato direto com o cliente, arquitetando o projeto, distribuindo as tarefas das sprints, delegando as tarefas ao time de desenvolvimento, mas também fazendo parte do desenvolvimento do projeto, sendo efetivamente na abstração dos dados e a modelagem do banco de dados.
+        </p>
+    </ul>
+</section>
+
+<section id="conhecimentos">
+    <h2>Conhecimentos</h2>
+    <p>Algoritmos e lógica de programação | HTML5 & CSS | SQL - SGBD Postgress | Modelagem de projetos | Javascript | Typescript | Estrutura de dados | C# | Scrum | Figma |
+        Linux | Pacote Office | 
+    </p>
+    
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>Email: <a href="mailto:exemplo@email.com">arthur.cunha8@fatec.sp.gov.br</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/arthur-augusto-250b8a186" target="_blank">linkedin.com/arthur-augusto</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Arthur Augusto</p>
+</footer>
+
+</body>
+</html>
