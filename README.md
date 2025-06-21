@@ -3,7 +3,7 @@
 ### Aluno: Arthur Augusto da Silva Cunha
 ### Curso: Desenvolvimento de Software Multiplataforma
 ### Turma: 2o. Semestre de 2024
-
+Vídeo de apresentação: https://youtu.be/VWjfwER8bFs
 
 👋 Olá, eu sou o Arthur Augusto
 📍 Morador de Jacareí, SP
