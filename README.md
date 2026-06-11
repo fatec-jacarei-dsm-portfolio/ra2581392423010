@@ -12,4 +12,4 @@ Turma: 4º Semestre de 2026
 
 ### Portfólio Online
 
-🔗 [Acesse o Portfólio](https://github.com/fatec-jacarei-dsm-portfolio/ra2581392423010/blob/main/ra2581392423010-main/docs/index.html) &nbsp;&nbsp;&nbsp; 🎤 [Pitch de Apresentação (vídeo)](https://youtu.be/VWjfwER8bFs)
+🔗 [Acesse o Portfólio](https://htmlpreview.github.io/?https://github.com/fatec-jacarei-dsm-portfolio/ra2581392423010/blob/main/ra2581392423010-main/docs/index.html) &nbsp;&nbsp;&nbsp; 🎤 [Pitch de Apresentação (vídeo)](https://youtu.be/VWjfwER8bFs)
